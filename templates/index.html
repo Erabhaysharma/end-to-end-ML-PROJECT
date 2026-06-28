@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EduPredict AI</title>
+
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+<a href="https://github.com/Erabhaysharma/end-to-end-ML-PROJECT"
+   target="_blank"
+   class="github-btn">
+
+    <i class="fab fa-github"></i>
+    <span>Code</span>
+
+</a>
+
+<div class="circle one"></div>
+<div class="circle two"></div>
+<div class="circle three"></div>
+
+<section class="hero">
+
+    <div class="glass">
+
+        <h1>EduPredict AI</h1>
+
+        <h2>Student Exam Performance Prediction</h2>
+
+        <p>
+
+            Harness the power of Machine Learning to accurately predict student
+            mathematics performance based on academic and demographic attributes.
+
+        </p>
+
+        <a href="{{ url_for('predict_datapoint') }}" class="btn">
+
+            Get Started
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <h2>EduPredict AI</h2>
+
+            <p>
+                AI-powered student performance prediction platform using
+                Machine Learning algorithms for accurate academic insights.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <a href="/">Home</a>
+            <a href="{{ url_for('predict_datapoint') }}">Prediction</a>
+            <a href="#">About</a>
+
+        </div>
+
+        <div class="footer-contact">
+
+            <h3>Developer</h3>
+
+            <p><strong>Abhay Kumar Sharma</strong></p>
+
+            <p>📞 +91 8571816976</p>
+
+            <p>✉️ abhaysharma75547@gmail.com</p>
+
+        </div>
+
+        <div class="footer-social">
+
+            <h3>Connect</h3>
+
+            <a href="https://github.com/Erabhaysharma/end-to-end-ML-PROJECT" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        © 2026 EduPredict AI • Designed & Developed by
+        <strong>Abhay Kumar Sharma</strong>
+
+    </div>
+
+</footer>
+</body>
+
+</html>
